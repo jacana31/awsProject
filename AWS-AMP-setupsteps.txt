@@ -1,0 +1,16 @@
+Update ~/.ssh/config and change the LocalForward parameter to the new IP of the windows host in AWS
+
+
+saml2aws.exe (put in your username/password & one time pin, then select your role)
+
+ssh-agent | tee /tmp/sshagent
+
+source /tmp/sshagent
+
+export AWS_DEFAULT_PROFILE=saml
+
+export AWS_DEFAULT_REGION=ap-southeast-2
+
+ssh jumpbox
+
+

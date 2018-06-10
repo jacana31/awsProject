@@ -14,3 +14,20 @@ export AWS_DEFAULT_REGION=ap-southeast-2
 ssh jumpbox
 
 
+#### git hub
+
+jacana21 nym320ab
+
+…or create a new repository on the command line
+
+echo "# awsProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jacana31/awsProject.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/jacana31/awsProject.git
+git push -u origin master

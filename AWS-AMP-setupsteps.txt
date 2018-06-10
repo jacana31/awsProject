@@ -22,7 +22,7 @@ jacana21 nym320ab
 
 echo "# awsProject" >> README.md
 git init
-git add README.md
+git add README.md AWS-AMP-setupsteps.txt
 git commit -m "first commit"
 git remote add origin https://github.com/jacana31/awsProject.git
 git push -u origin master
@@ -31,3 +31,7 @@ git push -u origin master
 
 git remote add origin https://github.com/jacana31/awsProject.git
 git push -u origin master
+
+git add AWS-AMP-setupsteps.txt
+
+git push 
